@@ -26,7 +26,7 @@ import net.fhirfactory.pegacorn.itops.model.valuesets.ITOpsMonitoredNodeTypeEnum
 import java.io.Serializable;
 
 public class ITOpsMonitoredNode implements Serializable {
-    private String nodeID;
+    private String componentID;
     private String componentName;
     private String nodeVersion;
     private String concurrencyMode;
@@ -35,12 +35,12 @@ public class ITOpsMonitoredNode implements Serializable {
 
     private ITOpsMonitoredNodeTypeEnum nodeType;
 
-    public String getNodeID() {
-        return nodeID;
+    public String getComponentID() {
+        return componentID;
     }
 
-    public void setNodeID(String nodeID) {
-        this.nodeID = nodeID;
+    public void setComponentID(String componentID) {
+        this.componentID = componentID;
     }
 
     public String getNodeVersion() {
@@ -86,7 +86,7 @@ public class ITOpsMonitoredNode implements Serializable {
     @Override
     public String toString() {
         return "ITOpsMonitoredNode{" +
-                "nodeID='" + nodeID + '\'' +
+                "nodeID='" + componentID + '\'' +
                 ", componentName='" + componentName + '\'' +
                 ", nodeVersion='" + nodeVersion + '\'' +
                 ", concurrencyMode='" + concurrencyMode + '\'' +

@@ -45,7 +45,7 @@ public class ITOpsMonitoredWorkshop extends ITOpsMonitoredNode {
     public String toString() {
         return "ITOpsMonitoredWorkshop{" +
                 "workUnitProcessors=" + workUnitProcessors +
-                ", nodeName='" + getNodeID() + '\'' +
+                ", nodeName='" + getComponentID() + '\'' +
                 ", nodeVersion='" + getNodeVersion() + '\'' +
                 ", nodeType=" + getNodeType() +
                 ", concurrencyMode='" + getConcurrencyMode() + '\'' +

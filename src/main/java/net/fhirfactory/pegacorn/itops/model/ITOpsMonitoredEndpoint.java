@@ -174,7 +174,7 @@ public class ITOpsMonitoredEndpoint extends ITOpsMonitoredNode {
                 ", remoteSystemName='" + remoteSystemName + '\'' +
                 ", endpointType=" + endpointType +
                 ", encrypted=" + encrypted +
-                ", nodeName='" + getNodeID() + '\'' +
+                ", nodeName='" + getComponentID() + '\'' +
                 ", nodeVersion='" + getNodeVersion() + '\'' +
                 ", nodeType=" + getNodeType() +
                 ", concurrencyMode='" + getConcurrencyMode() + '\'' +

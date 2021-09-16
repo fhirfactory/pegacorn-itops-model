@@ -45,7 +45,7 @@ public class ITOpsMonitoredWUP extends ITOpsMonitoredNode {
     public String toString() {
         return "ITOpsMonitoredWUP{" +
                 "endpoints=" + endpoints +
-                ", nodeName='" + getNodeID() + '\'' +
+                ", nodeName='" + getComponentID() + '\'' +
                 ", nodeVersion='" + getNodeVersion() + '\'' +
                 ", nodeType=" + getNodeType() +
                 ", concurrencyMode='" + getConcurrencyMode() + '\'' +

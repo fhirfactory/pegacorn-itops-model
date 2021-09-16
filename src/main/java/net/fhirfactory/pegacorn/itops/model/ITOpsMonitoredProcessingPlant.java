@@ -91,7 +91,7 @@ public class ITOpsMonitoredProcessingPlant extends ITOpsMonitoredNode {
         return "ITOpsMonitoredProcessingPlant{" +
                 "platformID='" + platformID + '\'' +
                 ", workshops=" + workshops +
-                ", nodeName='" + getNodeID() + '\'' +
+                ", nodeName='" + getComponentID() + '\'' +
                 ", nodeVersion='" + getNodeVersion() + '\'' +
                 ", nodeType=" + getNodeType() +
                 ", concurrencyMode='" + getConcurrencyMode() + '\'' +
